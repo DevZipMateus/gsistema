@@ -23,7 +23,7 @@ const AboutUs = () => {
                     <span className="text-sm font-medium text-gray-600">Desde 2010</span>
                   </div>
                   <div className="flex items-center">
-                    <div className="w-3 h-3 bg-corporate-lightBlue rounded-full mr-2"></div>
+                    <div className="w-3 h-3 bg-corporate-orange rounded-full mr-2"></div>
                     <span className="text-sm font-medium text-gray-600">+500 clientes</span>
                   </div>
                 </div>
@@ -53,8 +53,8 @@ const AboutUs = () => {
             {/* Key Points */}
             <div className="space-y-4 mb-8">
               <div className="flex items-start animate-fade-in" style={{ animationDelay: '0.4s' }}>
-                <div className="bg-corporate-blue/10 p-1 rounded-full mr-3 mt-1">
-                  <Check className="text-corporate-blue" size={16} />
+                <div className="bg-corporate-orange/10 p-1 rounded-full mr-3 mt-1">
+                  <Check className="text-corporate-orange" size={16} />
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 mb-1">Equipe Qualificada</h4>
@@ -63,8 +63,8 @@ const AboutUs = () => {
               </div>
               
               <div className="flex items-start animate-fade-in" style={{ animationDelay: '0.5s' }}>
-                <div className="bg-corporate-blue/10 p-1 rounded-full mr-3 mt-1">
-                  <Check className="text-corporate-blue" size={16} />
+                <div className="bg-corporate-orange/10 p-1 rounded-full mr-3 mt-1">
+                  <Check className="text-corporate-orange" size={16} />
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 mb-1">Atendimento Personalizado</h4>
@@ -73,8 +73,8 @@ const AboutUs = () => {
               </div>
               
               <div className="flex items-start animate-fade-in" style={{ animationDelay: '0.6s' }}>
-                <div className="bg-corporate-blue/10 p-1 rounded-full mr-3 mt-1">
-                  <Check className="text-corporate-blue" size={16} />
+                <div className="bg-corporate-orange/10 p-1 rounded-full mr-3 mt-1">
+                  <Check className="text-corporate-orange" size={16} />
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 mb-1">Tecnologia Avançada</h4>
@@ -85,7 +85,7 @@ const AboutUs = () => {
             
             <a 
               href="#contact" 
-              className="bg-black hover:bg-neutral-800 text-amber-400 px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2 font-medium inline-flex animate-fade-in" 
+              className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2 font-medium inline-flex animate-fade-in" 
               style={{ animationDelay: '0.7s' }}
             >
               <span>Conheça Nossos Diferenciais</span>

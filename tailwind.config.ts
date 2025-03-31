@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,12 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				corporate: {
-					blue: '#1a1a1a', // Black for primary elements (60%)
-					lightBlue: '#d4af37', // Gold for secondary elements (30%)
-					darkBlue: '#111111', // Darker black for variation (60%)
+					orange: '#f36530', // Primary color (60%)
+					blue: '#335b71', // Secondary color (30%)
+					darkBlue: '#264551', // Darker blue for variation (10%)
+					lightOrange: '#f68759', // Lighter orange for variation
 					gray: '#f8f9fa', // Light background
 					darkGray: '#343a40', // Dark text
-					accent: '#a67c00', // Darker gold for accents (10%)
 				}
 			},
 			borderRadius: {

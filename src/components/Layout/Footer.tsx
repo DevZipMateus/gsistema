@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin } from 'luc
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-corporate-blue text-white">
       <div className="container-custom py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Contact Information */}
@@ -31,16 +31,16 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-6">Links Rápidos</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-amber-400 transition-colors duration-300 inline-block">Início</a>
+                <a href="#" className="hover:text-corporate-orange transition-colors duration-300 inline-block">Início</a>
               </li>
               <li>
-                <a href="#about" className="hover:text-amber-400 transition-colors duration-300 inline-block">Sobre Nós</a>
+                <a href="#about" className="hover:text-corporate-orange transition-colors duration-300 inline-block">Sobre Nós</a>
               </li>
               <li>
-                <a href="#services" className="hover:text-amber-400 transition-colors duration-300 inline-block">Serviços</a>
+                <a href="#services" className="hover:text-corporate-orange transition-colors duration-300 inline-block">Serviços</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-amber-400 transition-colors duration-300 inline-block">Contato</a>
+                <a href="#contact" className="hover:text-corporate-orange transition-colors duration-300 inline-block">Contato</a>
               </li>
             </ul>
           </div>
@@ -49,16 +49,16 @@ const Footer = () => {
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-xl font-semibold mb-6">Redes Sociais</h3>
             <div className="flex space-x-4 mb-6">
-              <a href="#" className="bg-white/10 hover:bg-amber-400/80 hover:text-black transition-colors duration-300 p-2 rounded-full">
+              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-amber-400/80 hover:text-black transition-colors duration-300 p-2 rounded-full">
+              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-amber-400/80 hover:text-black transition-colors duration-300 p-2 rounded-full">
+              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-amber-400/80 hover:text-black transition-colors duration-300 p-2 rounded-full">
+              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -67,7 +67,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="border-t border-white/10 mt-10 pt-6 text-center text-sm text-white/70">
-          <p>© {new Date().getFullYear()} ContaPlus. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Sistema. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

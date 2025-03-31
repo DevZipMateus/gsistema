@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
@@ -10,7 +11,7 @@ const Contact = () => {
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-block bg-amber-100 text-amber-600 font-medium px-4 py-1.5 rounded-full text-sm mb-4">
+          <div className="inline-block bg-corporate-orange/10 text-corporate-orange font-medium px-4 py-1.5 rounded-full text-sm mb-4">
             Contato
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-6">
@@ -39,7 +40,7 @@ const Contact = () => {
                 href="https://wa.me/5511987654321" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-black hover:bg-neutral-800 text-amber-400 px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
+                className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
               >
                 <span>Enviar mensagem</span>
               </a>
@@ -48,7 +49,7 @@ const Contact = () => {
           
           {/* Phone Card */}
           <div className="bg-white rounded-xl shadow-sm overflow-hidden animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            <div className="bg-amber-400 p-6 flex items-center justify-center">
+            <div className="bg-corporate-orange p-6 flex items-center justify-center">
               <Phone className="w-16 h-16 text-white" />
             </div>
             <div className="p-6 text-center">
@@ -56,7 +57,7 @@ const Contact = () => {
               <p className="text-neutral-600 mb-4">Fale diretamente conosco</p>
               <a 
                 href="tel:+5511987654321"
-                className="bg-black hover:bg-neutral-800 text-amber-400 px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
+                className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
               >
                 <span>(11) 98765-4321</span>
               </a>
@@ -65,15 +66,15 @@ const Contact = () => {
           
           {/* Email Card */}
           <div className="bg-white rounded-xl shadow-sm overflow-hidden animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <div className="bg-neutral-800 p-6 flex items-center justify-center">
-              <Mail className="w-16 h-16 text-amber-400" />
+            <div className="bg-corporate-blue p-6 flex items-center justify-center">
+              <Mail className="w-16 h-16 text-white" />
             </div>
             <div className="p-6 text-center">
               <h3 className="text-lg font-semibold text-neutral-900 mb-2">E-mail</h3>
               <p className="text-neutral-600 mb-4">Envie sua mensagem</p>
               <a 
                 href="mailto:contato@contabilidade.com"
-                className="bg-black hover:bg-neutral-800 text-amber-400 px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
+                className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
               >
                 <span>contato@contabilidade.com</span>
               </a>
@@ -87,7 +88,7 @@ const Contact = () => {
             {/* Address */}
             <div className="flex items-start">
               <div className="bg-neutral-100 p-3 rounded-full mr-4 flex-shrink-0">
-                <MapPin className="text-neutral-700" size={24} />
+                <MapPin className="text-corporate-blue" size={24} />
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-neutral-900 mb-2">Endereço</h4>

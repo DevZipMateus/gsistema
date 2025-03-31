@@ -70,7 +70,7 @@ const Team = () => {
               {/* Content */}
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
-                <p className="text-corporate-blue mb-4">{member.role}</p>
+                <p className="text-corporate-orange mb-4">{member.role}</p>
                 
                 {/* Social Icons */}
                 <div className="flex space-x-3">

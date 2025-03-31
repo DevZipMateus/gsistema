@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Linkedin, Mail, Phone } from 'lucide-react';
+import { Linkedin, Mail, Phone, Instagram } from 'lucide-react';
 
 const team = [{
   id: 1,

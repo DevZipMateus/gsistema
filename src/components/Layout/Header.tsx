@@ -32,10 +32,11 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm py-3' : 'bg-white py-4'}`}>
       {/* Top Bar with Contact Info and Social Media */}
       <div className="container-custom">
-        <div className="flex flex-col md:flex-row md:justify-between items-center mb-4 md:mb-2">
+        {/* Desktop Contact Information */}
+        <div className={`hidden md:flex md:justify-between items-center mb-4 md:mb-2`}>
           {/* Contact Information */}
-          <div className="flex flex-col md:flex-row md:space-x-6 text-sm text-gray-600 mb-2 md:mb-0 items-center">
-            <a href="mailto:gerliandro55@gmail.com" className="flex items-center hover:text-corporate-orange transition-colors duration-300 mb-1 md:mb-0">
+          <div className="flex md:space-x-6 text-sm text-gray-600">
+            <a href="mailto:gerliandro55@gmail.com" className="flex items-center hover:text-corporate-orange transition-colors duration-300">
               <Mail size={16} className="mr-2" />
               gerliandro55@gmail.com
             </a>
@@ -51,6 +52,24 @@ const Header = () => {
               <Instagram size={18} />
             </a>
           </div>
+        </div>
+        
+        {/* Mobile Contact Toolbar - Compact & Horizontal */}
+        <div className="md:hidden flex justify-center gap-4 py-2 bg-gray-50 -mx-4 px-4 mb-2">
+          <a href="tel:+5594991784456" className="flex items-center text-xs text-gray-600 hover:text-corporate-orange">
+            <Phone size={14} className="mr-1" />
+            <span className="whitespace-nowrap">Ligar</span>
+          </a>
+          <span className="text-gray-300">|</span>
+          <a href="mailto:gerliandro55@gmail.com" className="flex items-center text-xs text-gray-600 hover:text-corporate-orange">
+            <Mail size={14} className="mr-1" />
+            <span>Email</span>
+          </a>
+          <span className="text-gray-300">|</span>
+          <a href="https://www.instagram.com/gerliandroestrela" target="_blank" rel="noopener noreferrer" className="flex items-center text-xs text-gray-600 hover:text-corporate-orange">
+            <Instagram size={14} className="mr-1" />
+            <span>Instagram</span>
+          </a>
         </div>
         
         {/* Main Navigation */}

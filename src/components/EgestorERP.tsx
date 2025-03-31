@@ -43,7 +43,7 @@ const EgestorERP = () => {
             className="inline-block"
           >
             <Button 
-              className="py-5 px-8 bg-green-500 hover:bg-green-600 text-white font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg"
+              className="py-6 px-10 bg-corporate-orange hover:bg-corporate-lightOrange text-white font-semibold text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 animate-pulse"
             >
               Teste grátis
             </Button>

@@ -10,10 +10,10 @@ const EgestorERP = () => {
         <div className="flex flex-col md:flex-row md:items-center md:gap-8 lg:gap-12 mb-10">
           {/* Left column - Header Text */}
           <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-800 mb-4">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-700 mb-4 leading-tight">
               Sistema de gestão empresarial - ERP Online
             </h2>
-            <p className="text-lg md:text-xl text-neutral-600">
+            <p className="text-lg md:text-xl text-gray-600 font-normal">
               Dobre seus lucros otimizando sua gestão
             </p>
           </div>

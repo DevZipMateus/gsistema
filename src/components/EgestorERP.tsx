@@ -4,21 +4,21 @@ import { Button } from '@/components/ui/button';
 
 const EgestorERP = () => {
   return (
-    <section className="section bg-white overflow-hidden">
-      <div className="container-custom">
+    <section className="py-16 bg-white overflow-hidden">
+      <div className="container px-4 mx-auto max-w-6xl">
         <div className="flex flex-col items-center">
           {/* Header Text */}
           <div className="text-center mb-10 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-800 mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-800 mb-4">
               Sistema de gestão empresarial - ERP Online
             </h2>
-            <p className="text-xl text-neutral-600 mb-8">
+            <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto">
               Dobre seus lucros otimizando sua gestão
             </p>
           </div>
           
-          {/* Video Container */}
-          <div className="w-full max-w-4xl rounded-xl overflow-hidden shadow-xl mb-8 animate-fade-in">
+          {/* Video Container - Optimized size */}
+          <div className="w-full max-w-3xl rounded-xl overflow-hidden shadow-xl mb-10 animate-fade-in">
             <video 
               className="w-full aspect-video object-cover" 
               autoPlay
@@ -33,14 +33,15 @@ const EgestorERP = () => {
           </div>
           
           {/* CTA Button */}
-          <div className="animate-fade-in mt-4">
+          <div className="animate-fade-in">
             <a 
               href="https://www.egestor.com.br/afl/9904" 
               target="_blank" 
               rel="noopener noreferrer"
+              className="inline-block"
             >
               <Button 
-                className="py-6 px-10 bg-green-400 hover:bg-green-500 text-lg font-medium text-neutral-800 rounded-full transition-all duration-300"
+                className="py-5 px-8 bg-green-500 hover:bg-green-600 text-white font-medium rounded-full transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 Teste grátis
               </Button>

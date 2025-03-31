@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, Facebook, Instagram, Twitter, Linkedin, Menu, X } from 'lucide-react';
+import { Mail, Phone, Instagram, Menu, X } from 'lucide-react';
 import { useIsMobile } from '../../hooks/use-mobile';
 
 const Header = () => {
@@ -35,29 +35,20 @@ const Header = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-center mb-4 md:mb-2">
           {/* Contact Information */}
           <div className="flex flex-col md:flex-row md:space-x-6 text-sm text-gray-600 mb-2 md:mb-0 items-center">
-            <a href="mailto:contato@contabilidade.com" className="flex items-center hover:text-corporate-orange transition-colors duration-300 mb-1 md:mb-0">
+            <a href="mailto:gerliandro55@gmail.com" className="flex items-center hover:text-corporate-orange transition-colors duration-300 mb-1 md:mb-0">
               <Mail size={16} className="mr-2" />
-              contato@contabilidade.com
+              gerliandro55@gmail.com
             </a>
-            <a href="tel:+5511987654321" className="flex items-center hover:text-corporate-orange transition-colors duration-300 whitespace-nowrap">
+            <a href="tel:+5594991784456" className="flex items-center hover:text-corporate-orange transition-colors duration-300 whitespace-nowrap">
               <Phone size={16} className="mr-2" />
-              (11) 98765-4321
+              (94) 99178-4456
             </a>
           </div>
           
           {/* Social Media Icons */}
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-500 hover:text-corporate-orange transition-colors duration-300">
-              <Facebook size={18} />
-            </a>
-            <a href="#" className="text-gray-500 hover:text-corporate-orange transition-colors duration-300">
+            <a href="https://www.instagram.com/gerliandroestrela" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-corporate-orange transition-colors duration-300">
               <Instagram size={18} />
-            </a>
-            <a href="#" className="text-gray-500 hover:text-corporate-orange transition-colors duration-300">
-              <Twitter size={18} />
-            </a>
-            <a href="#" className="text-gray-500 hover:text-corporate-orange transition-colors duration-300">
-              <Linkedin size={18} />
             </a>
           </div>
         </div>
@@ -68,7 +59,7 @@ const Header = () => {
           <Link to="/" className="transition-all duration-300 transform hover:scale-[1.02]">
             <img 
               src="/lovable-uploads/e31f9b36-1683-4d31-942f-83bb832fb4e4.png" 
-              alt="Sistema - Solução em Gestão para sua Empresa" 
+              alt="G Sistema - Soluções em TI para sua Empresa" 
               className="h-12"
             />
           </Link>

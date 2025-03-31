@@ -2,6 +2,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
+import Map from './Map';
 
 const Contact = () => {
   const isMobile = useIsMobile();
@@ -28,7 +29,7 @@ const Contact = () => {
           <div className="bg-white rounded-xl shadow-sm overflow-hidden animate-fade-in">
             <div className="bg-emerald-500 p-6 flex items-center justify-center">
               <img 
-                src="/lovable-uploads/1fa16bc1-908d-4a63-9c7f-88a25f117f80.png" 
+                src="/lovable-uploads/9a8edb27-0fd0-49ff-9165-64acf1186a7f.png" 
                 alt="WhatsApp" 
                 className="w-16 h-16"
               />
@@ -37,7 +38,7 @@ const Contact = () => {
               <h3 className="text-lg font-semibold text-neutral-900 mb-2">WhatsApp</h3>
               <p className="text-neutral-600 mb-4">Atendimento rápido e prático</p>
               <a 
-                href="https://wa.me/5511987654321" 
+                href="https://wa.me/5594991784456" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
@@ -56,10 +57,10 @@ const Contact = () => {
               <h3 className="text-lg font-semibold text-neutral-900 mb-2">Telefone</h3>
               <p className="text-neutral-600 mb-4">Fale diretamente conosco</p>
               <a 
-                href="tel:+5511987654321"
+                href="tel:+5594991784456"
                 className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
               >
-                <span>(11) 98765-4321</span>
+                <span>(94) 99178-4456</span>
               </a>
             </div>
           </div>
@@ -73,10 +74,10 @@ const Contact = () => {
               <h3 className="text-lg font-semibold text-neutral-900 mb-2">E-mail</h3>
               <p className="text-neutral-600 mb-4">Envie sua mensagem</p>
               <a 
-                href="mailto:contato@contabilidade.com"
+                href="mailto:gerliandro55@gmail.com"
                 className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
               >
-                <span>contato@contabilidade.com</span>
+                <span>gerliandro55@gmail.com</span>
               </a>
             </div>
           </div>
@@ -92,7 +93,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-neutral-900 mb-2">Endereço</h4>
-                <p className="text-neutral-600">Av. Paulista, 1000 - Bela Vista, São Paulo - SP, 01310-100</p>
+                <p className="text-neutral-600">Rua 01, 67, Centro, CEP: 68530-000, Rio Maria, Pará</p>
               </div>
             </div>
             
@@ -114,6 +115,15 @@ const Contact = () => {
                   <span className="font-medium text-neutral-900">Fechado</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Map Section */}
+        <div className="mt-12">
+          <div className="bg-white rounded-xl shadow-sm overflow-hidden">
+            <div className="h-[400px]">
+              <Map />
             </div>
           </div>
         </div>

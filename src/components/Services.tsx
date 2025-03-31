@@ -1,35 +1,49 @@
 
 import React from 'react';
-import { FileSpreadsheet, FileCheck, Building2, FileText, ArrowRight } from 'lucide-react';
+import { FileSpreadsheet, Computer, Building2, FileText, Zap, Key, ArrowRight } from 'lucide-react';
 
 const services = [
   {
     id: 1,
-    title: 'Contabilidade',
-    description: 'Serviços especializados para atender às necessidades legais das empresas, com foco em resultados e eficiência.',
+    title: 'Sistemas de Gestão (ERP)',
+    description: 'Sistemas completos para gestão de pequenas empresas, controle de estoque, vendas e finanças.',
     icon: FileSpreadsheet,
     delay: '0s'
   },
   {
     id: 2,
-    title: 'Fiscal',
-    description: 'Assessoria completa para cumprimento de todas as obrigações fiscais, evitando problemas com o fisco.',
-    icon: FileCheck,
+    title: 'Suporte de TI',
+    description: 'Suporte técnico e manutenção para empresas, garantindo o funcionamento contínuo de seus sistemas.',
+    icon: Computer,
     delay: '0.1s'
   },
   {
     id: 3,
-    title: 'Abertura de Empresa',
-    description: 'Orientação na estruturação societária adequada, visando economia tributária desde o primeiro dia.',
+    title: 'Consultoria em Tecnologia',
+    description: 'Orientação especializada para escolha das melhores soluções tecnológicas para o seu negócio.',
     icon: Building2,
     delay: '0.2s'
   },
   {
     id: 4,
-    title: 'Societário',
-    description: 'Serviços relacionados às questões legais junto a órgãos públicos e privados, mantendo sua empresa em dia.',
+    title: 'Automação Comercial',
+    description: 'Soluções completas de automação para lojas e comércios, incluindo PDV e sistemas integrados.',
     icon: FileText,
     delay: '0.3s'
+  },
+  {
+    id: 5,
+    title: 'Transformação Digital',
+    description: 'Ajudamos pequenos negócios a se modernizarem e aproveitarem as vantagens da era digital.',
+    icon: Zap,
+    delay: '0.4s'
+  },
+  {
+    id: 6,
+    title: 'Certificado Digital',
+    description: 'Emissão de certificados digitais para empresas e profissionais autônomos.',
+    icon: Key,
+    delay: '0.5s'
   }
 ];
 
@@ -46,13 +60,13 @@ const Services = () => {
             Soluções completas para sua empresa
           </h2>
           <p className="text-gray-600 text-lg">
-            Oferecemos serviços especializados para atender às necessidades específicas do seu negócio, 
-            desde a abertura até a gestão contínua.
+            Oferecemos serviços especializados em tecnologia para atender às necessidades específicas do seu negócio, 
+            desde consultoria até implementação de sistemas.
           </p>
         </div>
         
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div 
               key={service.id} 
@@ -72,7 +86,7 @@ const Services = () => {
         <div className="mt-16 text-center">
           <a 
             href="#contact" 
-            className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2 font-medium inline-flex"
+            className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2 font-medium inline-flex mx-auto"
           >
             <span>Fale com um especialista</span>
             <ArrowRight size={18} />

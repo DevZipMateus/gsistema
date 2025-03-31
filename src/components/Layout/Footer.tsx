@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -13,15 +13,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Phone className="mr-3 mt-1 flex-shrink-0" size={18} />
-                <span>(11) 98765-4321</span>
+                <span>(94) 99178-4456</span>
               </li>
               <li className="flex items-start">
                 <Mail className="mr-3 mt-1 flex-shrink-0" size={18} />
-                <span>contato@contabilidade.com</span>
+                <span>gerliandro55@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="mr-3 mt-1 flex-shrink-0" size={18} />
-                <span>Av. Paulista, 1000 - Bela Vista, São Paulo - SP, 01310-100</span>
+                <span>Rua 01, 67, Centro, CEP: 68530-000, Rio Maria, Pará</span>
               </li>
             </ul>
           </div>
@@ -49,25 +49,25 @@ const Footer = () => {
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-xl font-semibold mb-6">Redes Sociais</h3>
             <div className="flex space-x-4 mb-6">
-              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
+              <a href="https://www.instagram.com/gerliandroestrela" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
-                <Linkedin size={20} />
-              </a>
+            </div>
+            
+            <div className="mt-8">
+              <h4 className="text-lg font-semibold mb-4">Horário de Atendimento</h4>
+              <div className="text-white/80 space-y-2">
+                <p>Segunda - Sexta: 8h às 18h</p>
+                <p>Sábado: 9h às 13h</p>
+                <p>Domingo: Fechado</p>
+              </div>
             </div>
           </div>
         </div>
         
         {/* Copyright */}
         <div className="border-t border-white/10 mt-10 pt-6 text-center text-sm text-white/70">
-          <p>© {new Date().getFullYear()} Sistema. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} G Sistema. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

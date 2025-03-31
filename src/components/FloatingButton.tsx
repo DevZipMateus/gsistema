@@ -28,7 +28,7 @@ const FloatingButton = () => {
       {/* Contact Options */}
       <div className={`flex flex-col-reverse items-end mb-3 space-y-reverse space-y-2 transition-all duration-500 ${isOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
         <a 
-          href="https://wa.me/5511987654321" 
+          href="https://wa.me/5594991784456" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center bg-corporate-blue text-white px-4 py-2 rounded-md shadow-lg hover:bg-corporate-darkBlue transition-all duration-300 gap-2 font-medium"
@@ -37,14 +37,14 @@ const FloatingButton = () => {
         </a>
         
         <a 
-          href="tel:+5511987654321" 
+          href="tel:+5594991784456" 
           className="flex items-center bg-corporate-blue text-white px-4 py-2 rounded-md shadow-lg hover:bg-corporate-darkBlue transition-all duration-300 gap-2 font-medium"
         >
           <span className="mr-1">Ligar</span>
         </a>
         
         <a 
-          href="mailto:contato@contabilidade.com" 
+          href="mailto:gerliandro55@gmail.com" 
           className="flex items-center bg-corporate-blue text-white px-4 py-2 rounded-md shadow-lg hover:bg-corporate-darkBlue transition-all duration-300 gap-2 font-medium"
         >
           <span className="mr-1">E-mail</span>

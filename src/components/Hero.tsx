@@ -7,7 +7,7 @@ const Hero = () => {
   
   return (
     <section className="pt-28 pb-12 md:pt-36 md:pb-20 bg-gradient-to-br from-corporate-blue to-corporate-darkBlue relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-10"></div>
       
       {/* Decorative elements */}
       <div className="absolute top-40 right-10 w-72 h-72 bg-corporate-orange/10 rounded-full blur-3xl"></div>
@@ -18,19 +18,19 @@ const Hero = () => {
           <h1 className={`${isMobile ? 'text-3xl' : 'text-4xl md:text-5xl lg:text-6xl'} font-bold text-white leading-tight mb-6 animate-fade-in`} style={{
             animationDelay: '0.1s'
           }}>
-            Soluções contábeis inteligentes para empresas de todos os portes
+            Simplificando a gestão, impulsionando seu negócio
           </h1>
           
           <p className="text-lg text-corporate-orange/90 mb-10 animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
-            Entre em contato conosco e solicite um orçamento para começar a usar hoje mesmo nossa contabilidade digital e eficiente.
+            Tecnologia acessível, eficiente e estratégica para o crescimento do seu negócio.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{
             animationDelay: '0.3s'
           }}>
-            <a href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer" className="bg-corporate-orange hover:bg-corporate-lightOrange text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2">
+            <a href="https://wa.me/5594991784456" target="_blank" rel="noopener noreferrer" className="bg-corporate-orange hover:bg-corporate-lightOrange text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2">
               <img src="/lovable-uploads/9a8edb27-0fd0-49ff-9165-64acf1186a7f.png" alt="WhatsApp" className="w-5 h-5" />
               <span>Solicitar Orçamento</span>
             </a>

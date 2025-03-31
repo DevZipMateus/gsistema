@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
@@ -28,7 +29,7 @@ const Contact = () => {
           <div className="bg-white rounded-xl shadow-sm overflow-hidden animate-fade-in">
             <div className="bg-emerald-500 p-6 flex items-center justify-center">
               <img 
-                src="/lovable-uploads/9a8edb27-0fd0-49ff-9165-64acf1186a7f.png" 
+                src="/lovable-uploads/9af51757-dec9-4ec7-988c-f79d58e34b1f.png" 
                 alt="WhatsApp" 
                 className="w-16 h-16"
               />

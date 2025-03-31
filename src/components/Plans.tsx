@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Check, X } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
@@ -139,8 +140,15 @@ const Plans = () => {
                   {plan.description}
                 </p>
                 
-                <a href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" className="block text-center py-3 px-6 rounded-lg transition-colors duration-300 w-full bg-black hover:bg-neutral-900 text-amber-400">
+                <a href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" className="block text-center py-3 px-6 rounded-lg transition-colors duration-300 w-full bg-black hover:bg-neutral-900 text-amber-400 relative">
                   <div className="flex items-center justify-center gap-2">
+                    <div className="w-5 h-5">
+                      <img 
+                        src="/lovable-uploads/9af51757-dec9-4ec7-988c-f79d58e34b1f.png" 
+                        alt="WhatsApp" 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                     <span>Solicitar Plano</span>
                   </div>
                 </a>
@@ -167,6 +175,13 @@ const Plans = () => {
             Precisa de um plano personalizado para sua empresa?
           </p>
           <a href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-black hover:bg-neutral-900 text-amber-400 rounded-md transition-all duration-300 gap-2">
+            <div className="w-5 h-5">
+              <img 
+                src="/lovable-uploads/9af51757-dec9-4ec7-988c-f79d58e34b1f.png" 
+                alt="WhatsApp" 
+                className="w-full h-full object-contain"
+              />
+            </div>
             <span>Solicitar proposta personalizada</span>
           </a>
         </div>

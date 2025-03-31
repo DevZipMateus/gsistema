@@ -8,6 +8,7 @@ import AboutUs from '../components/AboutUs';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
 import FloatingButton from '../components/FloatingButton';
+import Plans from '../components/Plans';
 
 const Index = () => {
   // Scroll to top on page load
@@ -24,6 +25,7 @@ const Index = () => {
         <Services />
         <AboutUs />
         <Team />
+        <Plans />
         <Contact />
       </main>
       

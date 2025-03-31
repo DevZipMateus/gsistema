@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
@@ -38,7 +37,7 @@ const Contact = () => {
               <h3 className="text-lg font-semibold text-neutral-900 mb-2">WhatsApp</h3>
               <p className="text-neutral-600 mb-4">Atendimento rápido e prático</p>
               <a 
-                href="https://wa.me/5594991784456" 
+                href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-corporate-blue hover:bg-corporate-darkBlue text-white px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"

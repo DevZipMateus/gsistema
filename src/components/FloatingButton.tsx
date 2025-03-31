@@ -28,7 +28,7 @@ const FloatingButton = () => {
       {/* Contact Options */}
       <div className={`flex flex-col-reverse items-end mb-3 space-y-reverse space-y-2 transition-all duration-500 ${isOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
         <a 
-          href="https://wa.me/5594991784456" 
+          href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center bg-corporate-blue text-white px-4 py-2 rounded-md shadow-lg hover:bg-corporate-darkBlue transition-all duration-300 gap-2 font-medium"

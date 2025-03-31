@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useIsMobile } from '../hooks/use-mobile';
 const Hero = () => {
@@ -25,7 +26,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{
           animationDelay: '0.3s'
         }}>
-            <a href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" className="bg-corporate-orange hover:bg-corporate-lightOrange text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2">
+            <a href="https://api.whatsapp.com/send?phone=5594991784456&text=Ol%C3%A1%2C%20gostaria%20de%20me%20informar%20sobre%20uma%20assist%C3%AAncia" target="_blank" rel="noopener noreferrer" className="bg-corporate-orange hover:bg-corporate-lightOrange text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2">
               <img alt="WhatsApp" className="w-5 h-5" src="/lovable-uploads/a8f6d986-abd8-40fc-8731-788e1a19170c.png" />
               <span>Solicitar Orçamento</span>
             </a>

@@ -1,109 +1,110 @@
-
 import React from 'react';
 import { Check, X } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
 import { cn } from '../lib/utils';
 
-const plans = [{
-  id: 1,
-  name: 'Plano Essencial',
-  price: '99,99',
-  description: 'Ideal para microempresas ou empreendedores individuais que buscam serviços básicos de contabilidade.',
-  features: [{
-    text: 'Emissão de até 10 notas fiscais mensais',
-    included: true
+const plans = [
+  {
+    id: 1,
+    name: 'Plano Essencial',
+    price: '99,99',
+    description: 'Ideal para microempresas ou empreendedores individuais que buscam serviços básicos de contabilidade.',
+    features: [{
+      text: 'Emissão de até 10 notas fiscais mensais',
+      included: true
+    }, {
+      text: 'Declaração mensal de impostos',
+      included: true
+    }, {
+      text: 'Suporte contábil por e-mail',
+      included: true
+    }, {
+      text: 'Relatório financeiro básico mensal',
+      included: true
+    }, {
+      text: 'Acompanhamento básico de tributos',
+      included: true
+    }, {
+      text: 'Consultoria contábil trimestral',
+      included: false
+    }, {
+      text: 'Otimização fiscal',
+      included: false
+    }, {
+      text: 'Atendimento personalizado',
+      included: false
+    }],
+    popular: false,
+    delay: '0s',
+    color: 'bg-neutral-50'
   }, {
-    text: 'Declaração mensal de impostos',
-    included: true
+    id: 2,
+    name: 'Plano Business',
+    price: '269,99',
+    description: 'Perfeito para pequenas empresas que necessitam de suporte contábil mais abrangente e relatórios detalhados.',
+    features: [{
+      text: 'Emissão de até 30 notas fiscais mensais',
+      included: true
+    }, {
+      text: 'Declaração mensal de impostos e encargos trabalhistas',
+      included: true
+    }, {
+      text: 'Suporte contábil por e-mail e telefone',
+      included: true
+    }, {
+      text: 'Relatório financeiro detalhado mensal',
+      included: true
+    }, {
+      text: 'Acompanhamento mensal de tributos',
+      included: true
+    }, {
+      text: 'Consultoria contábil trimestral',
+      included: true
+    }, {
+      text: 'Otimização fiscal',
+      included: true
+    }, {
+      text: 'Atendimento personalizado',
+      included: false
+    }],
+    popular: true,
+    delay: '0.1s',
+    color: 'bg-amber-50'
   }, {
-    text: 'Suporte contábil por e-mail',
-    included: true
-  }, {
-    text: 'Relatório financeiro básico mensal',
-    included: true
-  }, {
-    text: 'Acompanhamento básico de tributos',
-    included: true
-  }, {
-    text: 'Consultoria contábil trimestral',
-    included: false
-  }, {
-    text: 'Otimização fiscal',
-    included: false
-  }, {
-    text: 'Atendimento personalizado',
-    included: false
-  }],
-  popular: false,
-  delay: '0s',
-  color: 'bg-neutral-50'
-}, {
-  id: 2,
-  name: 'Plano Business',
-  price: '269,99',
-  description: 'Perfeito para pequenas empresas que necessitam de suporte contábil mais abrangente e relatórios detalhados.',
-  features: [{
-    text: 'Emissão de até 30 notas fiscais mensais',
-    included: true
-  }, {
-    text: 'Declaração mensal de impostos e encargos trabalhistas',
-    included: true
-  }, {
-    text: 'Suporte contábil por e-mail e telefone',
-    included: true
-  }, {
-    text: 'Relatório financeiro detalhado mensal',
-    included: true
-  }, {
-    text: 'Acompanhamento mensal de tributos',
-    included: true
-  }, {
-    text: 'Consultoria contábil trimestral',
-    included: true
-  }, {
-    text: 'Otimização fiscal',
-    included: true
-  }, {
-    text: 'Atendimento personalizado',
-    included: false
-  }],
-  popular: true,
-  delay: '0.1s',
-  color: 'bg-amber-50'
-}, {
-  id: 3,
-  name: 'Plano Enterprise',
-  price: '699,99',
-  description: 'Solução completa para empresas que requerem acompanhamento contábil contínuo e consultoria estratégica.',
-  features: [{
-    text: 'Emissão ilimitada de notas fiscais',
-    included: true
-  }, {
-    text: 'Declaração mensal de impostos e encargos trabalhistas',
-    included: true
-  }, {
-    text: 'Suporte contábil ilimitado por e-mail, telefone e chat',
-    included: true
-  }, {
-    text: 'Relatórios financeiros completos mensais e trimestrais',
-    included: true
-  }, {
-    text: 'Acompanhamento estratégico de tributos',
-    included: true
-  }, {
-    text: 'Consultoria contábil mensal e planejamento financeiro',
-    included: true
-  }, {
-    text: 'Otimização fiscal avançada',
-    included: true
-  }, {
-    text: 'Atendimento personalizado prioritário',
-    included: true
-  }],
-  popular: false,
-  delay: '0.2s',
-  color: 'bg-neutral-50'
-}];
+    id: 3,
+    name: 'Plano Enterprise',
+    price: '699,99',
+    description: 'Solução completa para empresas que requerem acompanhamento contábil contínuo e consultoria estratégica.',
+    features: [{
+      text: 'Emissão ilimitada de notas fiscais',
+      included: true
+    }, {
+      text: 'Declaração mensal de impostos e encargos trabalhistas',
+      included: true
+    }, {
+      text: 'Suporte contábil ilimitado por e-mail, telefone e chat',
+      included: true
+    }, {
+      text: 'Relatórios financeiros completos mensais e trimestrais',
+      included: true
+    }, {
+      text: 'Acompanhamento estratégico de tributos',
+      included: true
+    }, {
+      text: 'Consultoria contábil mensal e planejamento financeiro',
+      included: true
+    }, {
+      text: 'Otimização fiscal avançada',
+      included: true
+    }, {
+      text: 'Atendimento personalizado prioritário',
+      included: true
+    }],
+    popular: false,
+    delay: '0.2s',
+    color: 'bg-neutral-50'
+  }
+];
 
 const Plans = () => {
   const isMobile = useIsMobile();
@@ -140,7 +141,7 @@ const Plans = () => {
                   {plan.description}
                 </p>
                 
-                <a href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" className="block text-center py-3 px-6 rounded-lg transition-colors duration-300 w-full bg-black hover:bg-neutral-900 text-amber-400 relative">
+                <a href="https://api.whatsapp.com/send?phone=5594991784456&text=Ol%C3%A1%2C%20gostaria%20de%20me%20informar%20sobre%20uma%20assist%C3%AAncia" target="_blank" rel="noopener noreferrer" className="block text-center py-3 px-6 rounded-lg transition-colors duration-300 w-full bg-black hover:bg-neutral-900 text-amber-400 relative">
                   <div className="flex items-center justify-center gap-2">
                     <div className="w-5 h-5">
                       <img 
@@ -174,7 +175,7 @@ const Plans = () => {
           <p className="text-neutral-600 mb-4">
             Precisa de um plano personalizado para sua empresa?
           </p>
-          <a href="https://api.whatsapp.com/message/DI5FPL57C545D1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-black hover:bg-neutral-900 text-amber-400 rounded-md transition-all duration-300 gap-2">
+          <a href="https://api.whatsapp.com/send?phone=5594991784456&text=Ol%C3%A1%2C%20gostaria%20de%20me%20informar%20sobre%20uma%20assist%C3%AAncia" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-black hover:bg-neutral-900 text-amber-400 rounded-md transition-all duration-300 gap-2">
             <div className="w-5 h-5">
               <img 
                 src="/lovable-uploads/9af51757-dec9-4ec7-988c-f79d58e34b1f.png" 

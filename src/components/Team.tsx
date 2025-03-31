@@ -12,14 +12,6 @@ const team = [{
   }
 }];
 const Team = () => {
-  return <section id="team" className="section bg-gray-50">
-      <div className="container-custom">
-        {/* Section Header */}
-        
-        
-        {/* Team Members Grid */}
-        
-      </div>
-    </section>;
+  return;
 };
 export default Team;

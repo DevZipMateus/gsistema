@@ -17,8 +17,8 @@ const Map = () => {
       iframe.setAttribute('loading', 'lazy');
       iframe.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
       
-      // Set the Google Maps embed URL for Rio Maria, Pará
-      iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15897.312582860113!2d-50.0432069!3d-7.3116532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92dc8e3e7a8d27f7%3A0xbc5b67efc73b19b6!2sRio%20Maria%2C%20PA%2C%2068530-000!5e0!3m2!1spt-BR!2sbr!4v1715799000000!5m2!1spt-BR!2sbr";
+      // Set the Google Maps embed URL with the exact coordinates from the user's link
+      iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.3275!2d-50.0479722!3d-7.3093056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMTgnMzMuNSJTIDUwwrAwMic1Mi43Ilc!5e0!3m2!1spt-BR!2sbr!4v1715799000000!5m2!1spt-BR!2sbr";
       
       // Append to the map container
       if (mapRef.current.childElementCount === 0) {

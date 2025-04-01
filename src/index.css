@@ -92,17 +92,22 @@
 @layer base {
   * {
     @apply border-border;
+    max-width: 100%;
   }
 
   html, body {
     @apply overflow-x-hidden;
     width: 100%;
     position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
   }
 
   body {
     @apply bg-background text-foreground font-sans;
     font-family: 'Inter', sans-serif;
+    overflow-x: clip;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -143,6 +148,8 @@
     @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
     width: 100%;
     overflow-x: hidden;
+    max-width: 100vw;
+    box-sizing: border-box;
   }
   
   /* Navigation link hover effect */

@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-xl font-semibold mb-6">Redes Sociais</h3>
             <div className="flex space-x-4 mb-6">
-              <a href="https://www.instagram.com/gerliandroestrela" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
+              <a href="https://www.instagram.com/gsistemaerp" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-corporate-orange/80 hover:text-white transition-colors duration-300 p-2 rounded-full">
                 <Instagram size={20} />
               </a>
             </div>

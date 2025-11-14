@@ -48,7 +48,7 @@ const Header = () => {
           
           {/* Social Media Icons */}
           <div className="flex space-x-4">
-            <a href="https://www.instagram.com/gerliandroestrela" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-corporate-orange transition-colors duration-300">
+            <a href="https://www.instagram.com/gsistemaerp" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-corporate-orange transition-colors duration-300">
               <Instagram size={18} />
             </a>
           </div>
@@ -66,7 +66,7 @@ const Header = () => {
             <span>Email</span>
           </a>
           <span className="text-gray-300">|</span>
-          <a href="https://www.instagram.com/gerliandroestrela" target="_blank" rel="noopener noreferrer" className="flex items-center text-xs text-gray-600 hover:text-corporate-orange">
+          <a href="https://www.instagram.com/gsistemaerp" target="_blank" rel="noopener noreferrer" className="flex items-center text-xs text-gray-600 hover:text-corporate-orange">
             <Instagram size={14} className="mr-1" />
             <span>Instagram</span>
           </a>

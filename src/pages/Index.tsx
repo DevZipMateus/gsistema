@@ -21,9 +21,9 @@ const Index = () => {
       
       <main className="flex-grow">
         <Hero />
+        <EgestorERP />
         <Services />
         <AboutUs />
-        <EgestorERP />
         <Contact />
       </main>
       

@@ -84,11 +84,21 @@ const Header = () => {
           </Link>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-1">
+          <nav className="hidden md:flex items-center space-x-1">
             <Link to="/" className="nav-link">Início</Link>
             <a href="#about" className="nav-link">Sobre Nós</a>
             <a href="#services" className="nav-link">Serviços</a>
             <a href="#contact" className="nav-link">Contato</a>
+            <a 
+              href="https://www.egestor.com.br/afl/9904" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="ml-4"
+            >
+              <button className="px-6 py-2 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-[1.02]">
+                Teste grátis
+              </button>
+            </a>
           </nav>
           
           {/* Mobile Menu Button */}
@@ -108,6 +118,17 @@ const Header = () => {
           <a href="#about" className="px-4 py-2 text-gray-700 hover:text-corporate-orange hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Sobre Nós</a>
           <a href="#services" className="px-4 py-2 text-gray-700 hover:text-corporate-orange hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Serviços</a>
           <a href="#contact" className="px-4 py-2 text-gray-700 hover:text-corporate-orange hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Contato</a>
+          <a 
+            href="https://www.egestor.com.br/afl/9904" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="px-4 mt-2"
+            onClick={toggleMobileMenu}
+          >
+            <button className="w-full py-2 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg">
+              Teste grátis
+            </button>
+          </a>
         </div>
       </div>
     </header>

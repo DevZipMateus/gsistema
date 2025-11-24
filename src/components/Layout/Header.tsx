@@ -91,21 +91,21 @@ const Header = () => {
             <a href="#contact" className="nav-link">Contato</a>
             <div className="flex items-center gap-2 ml-4">
               <a 
-                href="https://egestor.com.br/acesse.php?_gl=1*1ar9zg6*_gcl_au*NjM4ODEzMzEuMTc1OTkyOTYxOS4yMDc5NDQyOTY3LjE3NjMwNDA5MTcuMTc2MzA0MDkxNg.." 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <button className="px-6 py-2 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-[1.02]">
-                  Acesse
-                </button>
-              </a>
-              <a 
                 href="https://www.egestor.com.br/afl/9904" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <button className="px-6 py-2 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-[1.02]">
                   Teste grátis
+                </button>
+              </a>
+              <a 
+                href="https://egestor.com.br/acesse.php?_gl=1*1ar9zg6*_gcl_au*NjM4ODEzMzEuMTc1OTkyOTYxOS4yMDc5NDQyOTY3LjE3NjMwNDA5MTcuMTc2MzA0MDkxNg.." 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <button className="px-6 py-2 bg-white hover:bg-gray-50 text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-[1.02] border border-gray-200">
+                  Acesse
                 </button>
               </a>
             </div>
@@ -130,17 +130,6 @@ const Header = () => {
           <a href="#contact" className="px-4 py-2 text-gray-700 hover:text-corporate-orange hover:bg-gray-50 rounded-md" onClick={toggleMobileMenu}>Contato</a>
           <div className="flex gap-2 px-4 mt-2">
             <a 
-              href="https://egestor.com.br/acesse.php?_gl=1*1ar9zg6*_gcl_au*NjM4ODEzMzEuMTc1OTkyOTYxOS4yMDc5NDQyOTY3LjE3NjMwNDA5MTcuMTc2MzA0MDkxNg.." 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex-1"
-              onClick={toggleMobileMenu}
-            >
-              <button className="w-full py-2 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg">
-                Acesse
-              </button>
-            </a>
-            <a 
               href="https://www.egestor.com.br/afl/9904" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -149,6 +138,17 @@ const Header = () => {
             >
               <button className="w-full py-2 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg">
                 Teste grátis
+              </button>
+            </a>
+            <a 
+              href="https://egestor.com.br/acesse.php?_gl=1*1ar9zg6*_gcl_au*NjM4ODEzMzEuMTc1OTkyOTYxOS4yMDc5NDQyOTY3LjE3NjMwNDA5MTcuMTc2MzA0MDkxNg.." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex-1"
+              onClick={toggleMobileMenu}
+            >
+              <button className="w-full py-2 bg-white hover:bg-gray-50 text-black font-medium rounded-full transition-all duration-200 shadow-md hover:shadow-lg border border-gray-200">
+                Acesse
               </button>
             </a>
           </div>
